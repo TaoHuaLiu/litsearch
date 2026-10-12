@@ -4,7 +4,7 @@ rem Installe ou met a jour litsearch (recherche bibliographique) et cree le racc
 rem Double-cliquez sur ce fichier. Relancez-le plus tard pour mettre a jour.
 
 rem Adresse de l'archive du depot (a renseigner une fois par le mainteneur) :
-set "REPO_ZIP=https://github.com/VOTRE-COMPTE/litsearch/archive/refs/heads/main.zip"
+set "REPO_ZIP=https://github.com/TaoHuaLiu/litsearch/archive/refs/heads/main.zip"
 
 echo.
 echo === Installation de litsearch ===

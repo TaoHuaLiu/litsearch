@@ -29,7 +29,7 @@ Pour **mettre à jour**, relancez simplement le même installeur.
 En ligne de commande, avec [uv](https://docs.astral.sh/uv/) (installe aussi la commande `litsearch` accessible depuis n'importe quel dossier) :
 
 ```bash
-uv tool install --python 3.12 "litsearch[gui] @ <adresse du dépôt>"
+uv tool install --python 3.12 "litsearch[gui] @ https://github.com/TaoHuaLiu/litsearch/archive/refs/heads/main.zip"
 ```
 
 Les clés API se règlent dans l'onglet **Paramètres** de l'interface web, ou à la main dans le fichier

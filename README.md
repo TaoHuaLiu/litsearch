@@ -19,7 +19,7 @@ French guide: [GUIDE_UTILISATEUR_FR.md](GUIDE_UTILISATEUR_FR.md)
 From any folder, with [uv](https://docs.astral.sh/uv/) (puts `litsearch`, `litsearch-gui` and `litsearch-prisma` on the PATH):
 
 ```bash
-uv tool install --python 3.12 "litsearch[gui] @ <repo archive URL or path>"
+uv tool install --python 3.12 "litsearch[gui] @ https://github.com/TaoHuaLiu/litsearch/archive/refs/heads/main.zip"
 uv tool install --python 3.12 --editable ".[gui]"     # maintainer: code changes apply immediately
 ```
 

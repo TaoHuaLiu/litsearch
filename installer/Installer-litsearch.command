@@ -4,7 +4,7 @@
 set -e
 
 # Adresse de l'archive du dépôt (à renseigner une fois par le mainteneur) :
-REPO_ZIP="https://github.com/VOTRE-COMPTE/litsearch/archive/refs/heads/main.zip"
+REPO_ZIP="https://github.com/TaoHuaLiu/litsearch/archive/refs/heads/main.zip"
 
 export PATH="$HOME/.local/bin:$PATH"
 if ! command -v uv >/dev/null; then
