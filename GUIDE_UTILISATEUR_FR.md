@@ -16,7 +16,7 @@ Pour **mettre à jour**, relancez simplement le même installeur.
 **Utiliser**
 1. Double-cliquez sur **Recherche biblio** : la page s'ouvre dans votre navigateur (Edge, Chrome, Firefox, Safari…).
    Une fenêtre noire reste ouverte en arrière-plan ; fermez-la quand vous avez fini.
-2. Onglet **Paramètres** : collez vos clés API (voir le tableau du §1) puis *Enregistrer*. Elles restent sur votre
+2. Onglet **Paramètres** : collez vos clés API puis *Enregistrer* (« Comment obtenir les clés ? » explique où les demander). Elles restent sur votre
    ordinateur et ne sont jamais partagées. OpenAlex et ACM marchent sans clé.
 3. Onglet **Recherche** : tapez la requête, choisissez les années et les bases, cliquez **Lancer la recherche**,
    puis **Télécharger l'Excel**.
@@ -36,7 +36,7 @@ Les clés API se règlent dans l'onglet **Paramètres** de l'interface web, ou �
 `~/.config/litsearch/.env` (Mac/Linux) ou `%APPDATA%\litsearch\.env` (Windows), sur le modèle de `.env.example`.
 Un fichier `.env` dans le dossier courant est aussi lu, et passe avant.
 
-Clés dont vous pouvez disposer :
+Clés dont vous pouvez disposer (démarches détaillées, quotas et pièges : [litsearch/cles_api.md](litsearch/cles_api.md), aussi affiché dans l'onglet Paramètres) :
 
 | Source | Variable | Où l'obtenir |
 |---|---|---|

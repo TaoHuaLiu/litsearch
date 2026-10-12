@@ -57,6 +57,8 @@ def app() -> None:
 
     with tab_keys:
         st.write(f"Les clés sont enregistrées sur cet ordinateur uniquement : `{user_env_path()}`")
+        with st.expander("Comment obtenir les clés ?"):
+            st.markdown((Path(__file__).with_name("cles_api.md")).read_text(encoding="utf-8"))
         saved = read_user_keys()
         with st.form("keys"):
             vals = {}

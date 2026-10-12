@@ -26,6 +26,7 @@ uv tool install --python 3.12 --editable ".[gui]"     # maintainer: code changes
 Keys are read, first value winning, from: the environment, `./.env` in the current folder, the user config file
 (`~/.config/litsearch/.env` on macOS/Linux, `%APPDATA%\litsearch\.env` on Windows, also written by the GUI's
 *Paramètres* tab), then a `.env` next to the source. Template: `.env.example`.
+How to obtain each key (French, also shown in the GUI): [litsearch/cles_api.md](litsearch/cles_api.md).
 
 Colleagues without CLI experience: double-click `installer/Installer-litsearch.bat` (Windows) or
 `installer/Installer-litsearch.command` (macOS). They install uv + litsearch and put a *Recherche biblio* shortcut on
