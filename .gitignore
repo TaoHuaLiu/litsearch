@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.xlsx
+!exemple/**/*.xlsx
+.doi_cache.json
+*.egg-info/
+dist/

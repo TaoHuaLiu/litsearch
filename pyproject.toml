@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "litsearch"
+version = "0.2.0"
+description = "Boolean literature search across OpenAlex, Google Scholar, IEEE Xplore, ScienceDirect, ACM (+ T&F/Wiley imports)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31", "openpyxl>=3.1", "python-dotenv>=1.0"]
+
+[project.optional-dependencies]
+gui = ["streamlit>=1.40"]
+test = ["pytest>=8"]
+
+[project.scripts]
+litsearch = "litsearch.cli:main"
+litsearch-gui = "litsearch.gui:launch"
+litsearch-prisma = "litsearch.prisma:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["litsearch"]

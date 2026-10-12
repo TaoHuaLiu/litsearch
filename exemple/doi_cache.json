@@ -1,0 +1,23 @@
+{
+"adaptive transparency for autonomous agents under time pressure|2025|smith": {
+"doi": "10.1000/demo.001",
+"source": "openalex",
+"confidence": "élevée"
+},
+"explainable ai for operators of supervisory control systems|2023|lee": {
+"doi": "10.1000/demo.003",
+"source": "crossref",
+"confidence": "élevée"
+},
+"adaptive transparency for autonomous agents under|2025|smith": {
+"doi": "10.1000/demo.001",
+"source": "openalex",
+"confidence": "à vérifier"
+},
+"trust calibration in human robot teaming a longitudinal study|2024|martin": {
+"doi": "10.1000/demo.002",
+"source": "openalex",
+"confidence": "élevée"
+},
+"workload adaptive explanations in decision support|2022|garcia": null
+}
